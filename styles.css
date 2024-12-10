@@ -5,16 +5,26 @@
     box-sizing: border-box;
 }
 
-.title {
-    text-align: center;
-    margin: 32px;
+body {
+    margin: 0px 15% 5% 15%;
 }
 
-ul {
-    margin: 0px auto;
-    width: fit-content;
+.center {
+    text-align: center;
+}
+
+.title {
+    margin: 32px 0px;
+}
+
+.display-image {
+    display: block;
+    margin: 32px auto;
+    width: 437px;
+    height: auto;
 }
 
 li {
-    padding: 8px;
+    list-style-position: inside;
+    margin-bottom: 8px;
 }
